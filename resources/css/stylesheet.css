@@ -1,0 +1,78 @@
+/* delete dotted border when done */
+
+div {
+	border: 1px dotted black;
+}
+
+body { 
+margin: 0;
+}
+
+#header {
+	font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	width: 100%;
+	border-bottom: 1px solid black;
+	position: fixed;
+	z-index: 5;
+	background-color: white;
+}
+
+nav {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 280px;
+	margin: 0 30px;
+}
+
+nav span {
+	display: inline-block;
+}
+
+nav a {
+	color: black;
+}
+
+#logo {
+	color: mediumaquamarine;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 30px;
+	width: 160px;
+}
+
+#logo p {
+	display: inline;
+}
+
+#content {
+	padding-top: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;	
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
